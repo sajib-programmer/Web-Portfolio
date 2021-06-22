@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
 }
 .name{
     color: orange;
@@ -7,12 +8,68 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: darkgray;
+    text-align: justify;
+}
 .half-width{
-    margin-left: 40px;
-    padding: 30px;
+    margin-left: 60px;
+    padding: 20px;
     width: 40%;
     float: left;
 }
 .half-width img{
     width: 100%;
+    
+}
+.link_button{
+    background-image:linear-gradient(45deg ,rgb(245, 208, 139), orange);
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.top{
+    background-image: url(images/top-banner.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    border-bottom: 150px;
+}
+.middle{
+    background-image: url(images/dream-bg.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.bottom{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    background-position-y: center;
+}
+.left-border{
+    box-shadow: 5px 8px 30px gray;
+    height: 60%;
+    background-color: white;
+   
+    
+}
+#left{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg,rgb(241, 151, 141),rgb(211, 43, 25));
+    border-image-slice: 1;
+}
+#right{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg,rgb(62, 253, 55),rgb(48, 19, 212));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
